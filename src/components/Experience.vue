@@ -50,6 +50,9 @@ export default {
 </script>
 
 <style scoped>
+.experience {
+    background: floralwhite;
+}
 .intro-section {
     background: white;
     padding: 2rem;

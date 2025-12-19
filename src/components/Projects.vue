@@ -52,6 +52,9 @@ export default {
 </script>
 
 <style scoped>
+.projects {
+    background: floralwhite;
+}
 .intro-section {
     background: white;
     padding: 2rem;
