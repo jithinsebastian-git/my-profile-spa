@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: rgba(44, 62, 80, 0.95);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+nav a.router-link-active {
+    background: #667eea;
+}
+
+main {
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+section p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+section a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: rgba(44, 62, 80, 0.95);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Timeline Styles (Home page simple timeline) */
+.home .timeline {
+    border-left: 3px solid #667eea;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.home .timeline-entry {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.home .timeline-entry:before {
+    content: '';
+    position: absolute;
+    left: -1.65rem;
+    top: 0.5rem;
+    width: 12px;
+    height: 12px;
+    background: #667eea;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* Skills Styles */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skills div {
+    background: #f8f9fa;
+    padding: 1.2rem;
+    border-left: 4px solid #667eea;
+    border-radius: 4px;
+    flex: 1 1 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.skills div strong {
+    color: #667eea;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Links */
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-links a {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: #667eea;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.contact-links a:hover {
+    background: #764ba2;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    nav {
+        gap: 1rem;
+    }
+
+    nav a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    main {
+        margin: 1.5rem auto;
+    }
+}

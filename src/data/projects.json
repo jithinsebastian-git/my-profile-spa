@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Enterprise CRM Migration",
+        "year": "2024 - 2025",
+        "description": "Led the migration of a legacy CRM system to a modern, cloud-native architecture. Successfully transitioned from on-premises infrastructure to Azure, improving system reliability and user experience.",
+        "technologies": [
+            "C#",
+            ".NET Core",
+            "Azure",
+            "SQL Server",
+            "React",
+            "Docker",
+            "Kubernetes"
+        ],
+        "responsibilities": [
+            "Architected microservices-based solution with 15+ independent services",
+            "Designed and implemented Azure infrastructure (App Services, SQL Database, Service Bus)",
+            "Mentored 8 developers through the migration process",
+            "Established CI/CD pipelines reducing deployment time by 70%",
+            "Implemented real-time data synchronization using Azure Service Bus"
+        ],
+        "impact": "↓ 80% reduction in system downtime"
+    },
+    {
+        "title": "AI-Powered Analytics Dashboard",
+        "year": "2023 - 2024",
+        "description": "Developed an intelligent analytics platform leveraging machine learning and natural language processing to provide actionable insights to enterprise customers.",
+        "technologies": [
+            ".NET MVC",
+            "Angular",
+            "Python",
+            "TensorFlow",
+            "Azure ML",
+            "PostgreSQL",
+            "Elasticsearch"
+        ],
+        "responsibilities": [
+            "Designed end-to-end analytics pipeline with NLP capabilities",
+            "Built responsive, data-driven UI with Angular and D3.js",
+            "Integrated Azure ML models for predictive analytics",
+            "Optimized query performance improving dashboard load time by 60%",
+            "Led cross-team collaboration between data scientists and engineers"
+        ],
+        "impact": "↑ 45% increase in user adoption"
+    },
+    {
+        "title": "DevOps Automation Suite",
+        "year": "2022 - 2023",
+        "description": "Created a comprehensive DevOps automation platform that streamlined infrastructure provisioning, deployment, and monitoring across multiple cloud environments.",
+        "technologies": [
+            "Terraform",
+            "Jenkins",
+            "Kubernetes",
+            "Docker",
+            "Ansible",
+            "Prometheus",
+            "Node.js"
+        ],
+        "responsibilities": [
+            "Architected infrastructure-as-code solution using Terraform and Ansible",
+            "Implemented automated CI/CD pipelines using Jenkins and GitLab CI",
+            "Set up comprehensive monitoring and alerting with Prometheus and Grafana",
+            "Reduced manual deployment tasks by 85% through automation",
+            "Trained operations team on new DevOps practices and tools"
+        ],
+        "impact": "↓ 60% reduction in deployment time"
+    },
+    {
+        "title": "Real-time Collaboration Platform",
+        "year": "2021 - 2022",
+        "description": "Built a real-time collaborative workspace enabling teams to work together seamlessly with live editing, commenting, and notification features.",
+        "technologies": [
+            "Node.js",
+            "React",
+            "WebSocket",
+            "MongoDB",
+            "Redis",
+            "AWS",
+            "TypeScript"
+        ],
+        "responsibilities": [
+            "Designed real-time synchronization engine using WebSockets",
+            "Implemented operational transformation for concurrent editing",
+            "Built scalable backend handling 10K+ concurrent users",
+            "Developed comprehensive testing suite with Jest and Cypress",
+            "Mentored junior developers on full-stack JavaScript development"
+        ],
+        "impact": "↑ 3 Million+ user base"
+    },
+    {
+        "title": "Microservices Architecture Transformation",
+        "year": "2020 - 2021",
+        "description": "Spearheaded the transformation of a monolithic application into a distributed microservices architecture, improving scalability and development velocity.",
+        "technologies": [
+            ".NET Core",
+            "Docker",
+            "Kubernetes",
+            "RabbitMQ",
+            "gRPC",
+            "ELK Stack",
+            "Azure"
+        ],
+        "responsibilities": [
+            "Led technical design and implementation of 12+ microservices",
+            "Implemented inter-service communication using gRPC and message queues",
+            "Established observability through ELK Stack and distributed tracing",
+            "Migrated 50+ teams to new architecture with minimal disruption",
+            "Created comprehensive documentation and training materials"
+        ],
+        "impact": "↑ 5x faster feature deployment"
+    },
+    {
+        "title": "API Gateway & Management System",
+        "year": "2019 - 2020",
+        "description": "Designed and implemented a centralized API Gateway to manage, secure, and monitor thousands of API endpoints across the organization.",
+        "technologies": [
+            "Node.js",
+            "Kong",
+            "Nginx",
+            "OAuth 2.0",
+            "GraphQL",
+            "Redis",
+            "Jenkins"
+        ],
+        "responsibilities": [
+            "Architected API Gateway supporting 50K+ requests per second",
+            "Implemented OAuth 2.0 and JWT-based authentication",
+            "Created API versioning and rate limiting strategies",
+            "Built analytics dashboard for API usage monitoring",
+            "Reduced API response latency by 40% through caching"
+        ],
+        "impact": "↑ 99.99% uptime SLA"
+    }
+]
