@@ -8,6 +8,9 @@ on:
         branches:
             - master
 
+permissions:
+    contents: write
+
 jobs:
     deploy:
         runs-on: ubuntu-latest
@@ -27,6 +30,9 @@ jobs:
 
             - name: Build
               run: npm run build
+
+            - name: Verify dist folder
+              run: ls -la dist
 
             - name: Deploy to GitHub Pages
               if: github.event_name == 'push'
