@@ -23,8 +23,14 @@
 </template>
 
 <script>
+import { trackVisitor } from './utils/analytics'
+
 export default {
-  name: 'App'
+  name: 'App',
+  mounted() {
+    // Track visitor silently
+    trackVisitor()
+  }
 }
 </script>
 
