@@ -21,7 +21,7 @@ export const getAuthToken = async () => {
             const response = await fetch(`${API_URL}/api/auth/token`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ apiKey: API_KEY })
+                body: JSON.stringify({ apiKey: btoa(API_KEY) })
             })
             const data = await response.json()
             if (data.token) {
