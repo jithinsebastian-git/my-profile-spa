@@ -1,45 +1,49 @@
 name: Deploy to GitHub Pages
 
 on:
-    push:
-        branches:
-            - master
-    pull_request:
-        branches:
-            - master
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 permissions:
-    contents: write
+  contents: write
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-            - name: Setup Node.js
-              uses: actions/setup-node@v3
-              with:
-                  node-version: "22.12"
-                  cache: "npm"
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22.12"
+          cache: "npm"
 
-            - name: Install dependencies
-              run: npm install
+      - name: Install dependencies
+        run: npm install
 
-            - name: Build
-              env:
-                  VITE_API_URL: ${{ secrets.API_URL }}
-                  VITE_API_KEY: ${{ secrets.API_KEY }}
-              run: npm run build
+      - name: Build
+        env:
+          VITE_API_URL: ${{ secrets.API_URL }}
+          VITE_API_KEY: ${{ secrets.API_KEY }}
+        run: npm run build
 
-            - name: Verify dist folder
-              run: ls -la dist
+      - name: Verify dist folder
+        run: ls -la dist
 
-            - name: Deploy to GitHub Pages
-              if: github.event_name == 'push'
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./dist
+      # 5. Copy index.html to 404.html
+      - name: Create 404.html
+        run: cp dist/index.html dist/404.html
+
+      - name: Deploy to GitHub Pages
+        if: github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
