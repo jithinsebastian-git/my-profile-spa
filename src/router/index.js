@@ -6,7 +6,8 @@ import Experience from '../components/Experience.vue'
 const routes = [
     { path: '/', name: 'Home', component: Home },
     { path: '/projects', name: 'Projects', component: Projects },
-    { path: '/experience', name: 'Experience', component: Experience }
+    { path: '/experience', name: 'Experience', component: Experience },
+    { path: '/:pathMatch(.*)*', redirect: '/' } // Redirect unknown paths to Home
 ]
 
 const router = createRouter({
