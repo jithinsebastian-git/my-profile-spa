@@ -1,134 +1,146 @@
 [
     {
-        "title": "Enterprise CRM Migration",
-        "year": "2024 - 2025",
-        "description": "Led the migration of a legacy CRM system to a modern, cloud-native architecture. Successfully transitioned from on-premises infrastructure to Azure, improving system reliability and user experience.",
+        "title": "OCC (Operational Control Center) Hub",
+        "year": "2025",
+        "description": "Led a team of 15+ members, including developers, tech leads, and testers, through various stages of the SDLC to develop a secure portal for a telecom client. The portal enables scheduling, tracking, and analyzing technician dispatch processes for installation and repair tasks.",
         "technologies": [
             "C#",
             ".NET Core",
-            "Azure",
+            "GCP",
             "SQL Server",
             "React",
+            "Typescript",
             "Docker",
             "Kubernetes"
         ],
         "responsibilities": [
-            "Architected microservices-based solution with 15+ independent services",
-            "Designed and implemented Azure infrastructure (App Services, SQL Database, Service Bus)",
-            "Mentored 8 developers through the migration process",
-            "Established CI/CD pipelines reducing deployment time by 70%",
-            "Implemented real-time data synchronization using Azure Service Bus"
+            "Created comprehensive documentation and training materials",
+            "Conducted code reviews and implemented reusable frontend components (React).",
+            "Managed the team and drove sprint activities to ensure timely, high-quality deliverables.",
+            "Architected a microservices-based solution with 15+ independent services.",
+            "Designed and implemented GCP infrastructure (Kubernetes, Apigee, SQL Database) and integrated Azure AD.",
+            "Mentored 10 developers during the migration process.",
+            "Established CI/CD pipelines, reducing deployment time by 70%.",
+            "Hands-on pair programming with GitHub Copilot to improve code quality and accelerate delivery."
         ],
-        "impact": "↓ 80% reduction in system downtime"
+        "impact": "Migrated a legacy application and created a hub for multiple applications using micro-frontend and microservice implementations, reducing service latency by 50%."
     },
     {
-        "title": "AI-Powered Analytics Dashboard",
-        "year": "2023 - 2024",
-        "description": "Developed an intelligent analytics platform leveraging machine learning and natural language processing to provide actionable insights to enterprise customers.",
+        "title": "Order Management System (Voice Process)",
+        "year": "2022 - 2024",
+        "description": "Developed an order management system to support the internal voice-based ordering process for telecom services. The system streamlined order capture, validation, provisioning, and tracking, significantly improving operational efficiency and customer satisfaction.",
         "technologies": [
             ".NET MVC",
-            "Angular",
-            "Python",
-            "TensorFlow",
-            "Azure ML",
-            "PostgreSQL",
-            "Elasticsearch"
+            "Vue 3",
+            "EF Core",
+            "Micro-frontend & Microservices",
+            "GitHub Actions",
+            "SQL Server",
+            "Docker",
+            "Oracle Database Integration"
         ],
         "responsibilities": [
-            "Designed end-to-end analytics pipeline with NLP capabilities",
-            "Built responsive, data-driven UI with Angular and D3.js",
-            "Integrated Azure ML models for predictive analytics",
-            "Optimized query performance improving dashboard load time by 60%",
-            "Led cross-team collaboration between data scientists and engineers"
+            "Designed the end-to-end ordering workflow for telecom services, including order capture, validation, provisioning, and tracking.",
+            "Built a responsive, data-driven UI using Vue 3 and Highcharts.",
+            "Integrated third-party systems to enable order validation and provisioning.",
+            "Optimized query performance, improving dashboard load time by 60%.",
+            "Developed a comprehensive testing suite with Jest and Cypress.",
+            "Created detailed documentation and training materials for system adoption.",
+            "Led cross-team collaboration between data stakeholders and engineering teams to align the system with business requirements."
         ],
-        "impact": "↑ 45% increase in user adoption"
+        "impact": "Achieved a 45% increase in internal order processing efficiency."
     },
     {
-        "title": "DevOps Automation Suite",
-        "year": "2022 - 2023",
-        "description": "Created a comprehensive DevOps automation platform that streamlined infrastructure provisioning, deployment, and monitoring across multiple cloud environments.",
+        "title": "Keystone",
+        "year": "2019 - 2022",
+        "description": "Developed a custom business intelligence dashboard with drill-down functionalities using Vue.js and .NET Core APIs for telecom operations and order management systems. The platform provided real-time insights into key performance indicators, enabling data-driven decision-making and improving operational efficiency.",
         "technologies": [
-            "Terraform",
-            "Jenkins",
+            "Vue.js",
+            ".NET MVC Core",
             "Kubernetes",
             "Docker",
-            "Ansible",
-            "Prometheus",
-            "Node.js"
+            "MS SQL Server",
+            "Element UI",
+            "Highcharts",
+            "PrimeVue",
+            "Node.js",
+            "JavaScript",
+            "Azure AD"
         ],
         "responsibilities": [
-            "Architected infrastructure-as-code solution using Terraform and Ansible",
-            "Implemented automated CI/CD pipelines using Jenkins and GitLab CI",
-            "Set up comprehensive monitoring and alerting with Prometheus and Grafana",
-            "Reduced manual deployment tasks by 85% through automation",
-            "Trained operations team on new DevOps practices and tools"
+            "Architected infrastructure and developed gamification features to enhance user engagement.",
+            "Implemented reusable components and optimized data visualization performance.",
+            "Integrated logging and monitoring solutions with Splunk to ensure system reliability.",
+            "Reduced manual deployment tasks by 85% through automation and CI/CD pipelines.",
+            "Trained team members on new technologies and best practices.",
+            "Implemented dashboard customization based on user interests and roles, with widgets offering drill-down capabilities."
         ],
-        "impact": "↓ 60% reduction in deployment time"
+        "impact": "Achieved a 60% reduction in identifying critical business process issues through proactive monitoring and analytics."
     },
     {
-        "title": "Real-time Collaboration Platform",
-        "year": "2021 - 2022",
-        "description": "Built a real-time collaborative workspace enabling teams to work together seamlessly with live editing, commenting, and notification features.",
+        "title": "Warehouse Management System (WMS) - Wholesale",
+        "year": "2018 - 2019",
+        "description": "Migration project to develop a Warehouse Management System (WMS) for a wholesale distribution client. The system optimized inventory management and order fulfillment, improving warehouse efficiency, reducing errors, and enhancing overall operational performance.",
         "technologies": [
-            "Node.js",
-            "React",
-            "WebSocket",
-            "MongoDB",
-            "Redis",
-            "AWS",
+            "ASP.NET MVC",
+            "JavaScript",
+            "SQL Server",
+            "Telerik UI",
+            "jQuery"
+        ],
+        "responsibilities": [
+            "Collaborated with an agile team to gather requirements and design system architecture.",
+            "Integrated a payment gateway to streamline order processing.",
+            "Conducted code reviews and implemented performance optimizations.",
+            "Performed process analysis and workflow optimization for warehouse operations.",
+            "Developed a comprehensive testing suite with unit and integration tests.",
+            "Mentored junior developers in full-stack development."
+        ],
+        "impact": "Increased order fulfillment speed by 30% and reduced inventory discrepancies by 25%."
+    },
+    {
+        "title": "Pharma Admin",
+        "year": "2018",
+        "description": "Contributed as part of the core team in developing a Pharma Admin portal for a pharmaceutical client. The application helped pharmaceutical companies increase production by tracking and managing inventory, orders, and distribution processes based on the demand for medical supplies across various regions.",
+        "technologies": [
+            "ASP.NET MVC",
+            "Angular",
+            "MS SQL Server",
+            "WCF",
             "TypeScript"
         ],
         "responsibilities": [
-            "Designed real-time synchronization engine using WebSockets",
-            "Implemented operational transformation for concurrent editing",
-            "Built scalable backend handling 10K+ concurrent users",
-            "Developed comprehensive testing suite with Jest and Cypress",
-            "Mentored junior developers on full-stack JavaScript development"
+            "Participated in requirement analysis and system design discussions.",
+            "Developed key modules for analytics and reporting functionalities.",
+            "Delivered sprint commitments on time with high code quality."
         ],
-        "impact": "↑ 3 Million+ user base"
+        "impact": "Enhanced inventory tracking accuracy by 20%, enabling better resource allocation."
     },
     {
-        "title": "Microservices Architecture Transformation",
-        "year": "2020 - 2021",
-        "description": "Spearheaded the transformation of a monolithic application into a distributed microservices architecture, improving scalability and development velocity.",
-        "technologies": [
-            ".NET Core",
-            "Docker",
-            "Kubernetes",
-            "RabbitMQ",
-            "gRPC",
-            "ELK Stack",
-            "Azure"
-        ],
-        "responsibilities": [
-            "Led technical design and implementation of 12+ microservices",
-            "Implemented inter-service communication using gRPC and message queues",
-            "Established observability through ELK Stack and distributed tracing",
-            "Migrated 50+ teams to new architecture with minimal disruption",
-            "Created comprehensive documentation and training materials"
-        ],
-        "impact": "↑ 5x faster feature deployment"
-    },
-    {
-        "title": "API Gateway & Management System",
-        "year": "2019 - 2020",
-        "description": "Designed and implemented a centralized API Gateway to manage, secure, and monitor thousands of API endpoints across the organization.",
+        "title": "X-Fly",
+        "year": "2017- 2017",
+        "description": "Application which helps doctors to express their insights about different deceases and using these inputs they can get analytical output to analyse the current situation",
         "technologies": [
             "Node.js",
-            "Kong",
-            "Nginx",
-            "OAuth 2.0",
-            "GraphQL",
-            "Redis",
-            "Jenkins"
+            "Angular",
+            "ASP.NET MVC",
+            "MS SQL Server",
+            "Dapper",
+            "Kendo UI",
+            "JavaScript",
+            "SSRS",
+            "SSIS",
+            "NLP",
+            "Highcharts"
         ],
         "responsibilities": [
-            "Architected API Gateway supporting 50K+ requests per second",
-            "Implemented OAuth 2.0 and JWT-based authentication",
-            "Created API versioning and rate limiting strategies",
-            "Built analytics dashboard for API usage monitoring",
-            "Reduced API response latency by 40% through caching"
+            "Designed and developed RESTful APIs for data processing and analysis.",
+            "Implemented analytical tool with help of NLP to derive insights from doctor inputs.",
+            "Integrated various charts to visualize data effectively.",
+            "Created logics for data extraction and transformation using SSIS.",
+            "Implemented various stored procedures and reports using SSRS for data analysis.",
+            "Coordinated with management and members for smooth functioning of project."
         ],
-        "impact": "↑ 99.99% uptime SLA"
+        "impact": "Improved data processing speed by 40%, enabling timely insights for medical professionals."
     }
 ]
