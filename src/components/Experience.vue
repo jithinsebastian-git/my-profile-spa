@@ -192,7 +192,7 @@ export default {
 }
 
 .achievements {
-    margin: 1rem 0;
+    margin: 1rem 0;    
 }
 
 .achievements-title {
@@ -207,6 +207,8 @@ export default {
 
 .achievement-list {
     list-style: none;
+    max-height: 250px;
+    overflow-y: auto;
 }
 
 .achievement-list li {

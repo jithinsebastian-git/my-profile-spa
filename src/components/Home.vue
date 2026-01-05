@@ -53,16 +53,16 @@
       </p>
       <div class="projects">
         <div>
-          <strong>Enterprise CRM Migration</strong><br />
-          Reduced downtime by 80%.
+          <strong>OCC (Operational Control Center) Hub</strong><br />
+          Single place for monitoring and scheduling jobs for telecom technicians.
         </div>
         <div>
-          <strong>AI-Powered Analytics Dashboard</strong><br />
-          Built with .Net MVC & Angular with help of NLP.
+          <strong>Order Management System (Voice Process)</strong><br />
+          Built for a leading telecom client to manage wholesale orders efficiently.
         </div>
         <div>
-          <strong>DevOps Automation Suite</strong><br />
-          Cut deployment time by 60%.
+          <strong>Keystone</strong><br />
+          The platform provided real-time insights into key performance indicators, enabling data-driven decision-making and improving operational efficiency.
         </div>
       </div>
     </section>

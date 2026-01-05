@@ -11,6 +11,7 @@
             "Architected scalable solutions",
             "Improved code quality by implementing automated testing, increasing coverage to 95%",
             "Periodic Code reviews and knowledge sharing sessions",
+            "Introduced Git-based workflow and code review processes improving code quality",
             "Conducted and participated in technical interviews",
             "Collaborated with cross-functional teams to define project requirements and deliverables",
             "Optimized application performance, resulting in a 40% reduction in response times",
@@ -35,73 +36,92 @@
             "SQL Server",
             "Oracle DB",
             "Azure",
-            "Azure DevOps"
+            "GitHub Actions",
+            "GitHub Copilot",
+            "Microservices",
+            "JIRA",
+            "Confluence",
+            "Agile Methodologies"
         ]
     },
     {
         "company": "Notetech Software",
         "position": "Senior Dot Net Developer",
         "duration": "Jan 2018 – Oct 2018 (10 months)",
-        "description": "Architected cloud-native solutions for enterprise clients, focusing on scalability and performance. Improved CI/CD pipelines and established best practices for API development and deployment.",
+        "description": "Contributed as part of the core team in developing a Pharma Admin portal for a pharmaceutical client. The application helped pharmaceutical companies increase production by tracking and managing inventory, orders, and distribution processes based on the demand for medical supplies across various regions.",
         "achievements": [
-            "Architected RESTful APIs handling 5K+ requests per second with caching strategies",
-            "Implemented OAuth 2.0 authentication improving security compliance",
+            "Participated in requirement analysis and system design discussions with clients",
+            "Developed key modules for analytics and reporting functionalities",
             "Optimized database queries reducing query execution time by 45%",
             "Collaborated with DevOps team to setup monitoring and logging infrastructure",
-            "Developed comprehensive API documentation and developer guidelines"
+            "Delivered sprint commitments on time with high code quality."
         ],
         "technologies": [
             "C#",
             ".NET Core",
-            "Azure",
             "Angular",
-            "JavaScript",
-            "Redis",
-            "Jenkins"
+            "TypeScript",
+            "MS SQL Server",
+            "WCF"
         ]
     },
     {
         "company": "Zerone Consulting",
         "position": "Software Engineer L3",
         "duration": "Feb 2017 – Sep 2017 (8 months)",
-        "description": "Built scalable APIs and robust backend systems for SaaS applications. Introduced agile practices and promoted a culture of continuous improvement across the engineering team.",
+        "description": "Worked as part of an agile team to design and develop scalable web application with intelligent insights for medical industry clients. Focused on building robust backend services and APIs while ensuring seamless integration with front-end components.",
         "achievements": [
-            "Designed and developed scalable RESTful APIs for 3 enterprise SaaS products",
-            "Introduced Git-based workflow and code review processes improving code quality",
-            "Implemented automated testing reducing bug escapes to production by 60%",
+            "Designed and developed RESTful APIs for data processing and analysis.",
+            "Implemented analytical tool with help of NLP to derive insights from doctor inputs.",
+            "Integrated various charts to visualize data effectively.",
+            "Created logics for data extraction and transformation using SSIS.",
+            "Implemented various repoorts using stored procedures and SSRS for data analysis.",
             "Mentored 4 junior developers on .NET and cloud development best practices",
-            "Established Agile/Scrum practices increasing team productivity by 35%"
+            "Proactive team collaboration for smooth functioning of project."
         ],
         "technologies": [
             "C#",
-            ".NET Core",
-            "Azure",
+            "ASP.NET MVC",
             "Angular",
             "JavaScript",
             "Node.js",
-            "MongoDB",
-            "Git"
+            "Azure DevOps",
+            "MS SQL Server",
+            "Highcharts",
+            "SSRS",
+            "SSIS",
+            "NLP",
+            "Dapper",
+            "Kendo UI",
+            "Azure Cognitive Services"
         ]
     },
     {
         "company": "Aabasoft Technologies (India) Pvt. Ltd.",
         "position": "Senior Dot Net Developer",
         "duration": "Dec 2014 – Jan 2017 (2+ years)",
-        "description": "Developed MVPs and production systems for various clients. Wore multiple hats in development and operations, gaining comprehensive understanding of full software development lifecycle from design to deployment and maintenance.",
+        "description": "Developed and deployed various web applications for various clients. Wore multiple hats in development and operations, gaining comprehensive understanding of full software development lifecycle from design to deployment and maintenance.",
         "achievements": [
-            "Developed 8+ MVPs for startups and enterprises from concept to launch",
-            "Managed deployment and maintenance of production systems serving 50K+ users",
-            "Implemented monitoring and alerting systems reducing MTTR by 50%",
+            "Participated in requirement analysis and system design discussions with clients",
+            "Developed and maintained web applications using .NET technologies",
+            "Optimized application performance, resulting in a 25% reduction in load times",
+            "Developed Custom Build Dynamic CRM solutions with VoIP call integration for internal BPO processes. Currently using 600+ users across various departments and clients.",
+            "Managed deployment and maintenance of production systems serving 10K+ users",
+            "Implemented custom build logging and monitoring tool to integrate with multiple applications",
             "Trained team members on .NET technologies and best practices",
             "Participated in architectural design reviews for new projects"
         ],
         "technologies": [
             "C#",
             ".NET Framework",
+            ".Net Web forms",
+            "AngularJS",
             "ASP.NET MVC",
             "SQL Server",
             "JavaScript",
             "jQuery",
+            "Payment Gateway Integrations",
+            "Telerik UI",
             "IIS"
         ]
     }

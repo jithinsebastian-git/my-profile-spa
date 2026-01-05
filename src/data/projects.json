@@ -118,7 +118,7 @@
     },
     {
         "title": "X-Fly",
-        "year": "2017- 2017",
+        "year": "2017",
         "description": "Application which helps doctors to express their insights about different deceases and using these inputs they can get analytical output to analyse the current situation",
         "technologies": [
             "Node.js",
@@ -142,5 +142,25 @@
             "Coordinated with management and members for smooth functioning of project."
         ],
         "impact": "Improved data processing speed by 40%, enabling timely insights for medical professionals."
+    },
+    {
+        "title": "Dynamic CRM with VoIP Integration",
+        "year": "2015- 2016",
+        "description": "This application is a comprehensive business communication and customization platform designed to adapt seamlessly to diverse organizational requirements. It empowers enterprises to tailor the user interface (UI) according to specific business workflows, ensuring that each department and client interaction is optimized for efficiency and ease of use. A key feature of the system is its VoIP integration, enabling smooth handling of both internal and external BPO processes. By consolidating communication channels, the application supports streamlined call management across multiple teams and client accounts. Currently, the platform is actively used by 600+ users spanning various departments and client organizations, highlighting its scalability and reliability in real-world operations.",
+        "technologies": [
+            "Angular",
+            "ASP.NET MVC",
+            "MS SQL Server",
+            "Stored Procedures"
+        ],
+        "responsibilities": [
+            "Designed and developed admin and user modules for Dynamic CRM system.",
+            "Application workflow customization tool implemented to adapt UI for various departments and clients.",
+            "Integrated various charts to visualize data effectively.",
+            "Created and optimized database logic for performance improvements.",
+            "Implemented various security features to safeguard sensitive data.",
+            "Third party VoIP integration for seamless call handling in BPO processes."
+        ],
+        "impact": "Imporved productivity by 35% through tailored workflows and efficient communication management."
     }
 ]
