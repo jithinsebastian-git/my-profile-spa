@@ -400,8 +400,8 @@ export default {
   overflow: hidden;
 }
 
-.clamp-2 { -webkit-line-clamp: 2; }
-.clamp-3 { -webkit-line-clamp: 3; }
+.clamp-2 { line-clamp: 2; -webkit-line-clamp: 2; }
+.clamp-3 { line-clamp: 3; -webkit-line-clamp: 3; }
 
 /* Modal */
 .modal-overlay {
