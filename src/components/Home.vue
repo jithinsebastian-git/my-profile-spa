@@ -1,209 +1,246 @@
 <template>
-  <div class="home">
+  <div class="space-y-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1 class="hero-title">
-            <span class="gradient-text">Full-Stack Developer</span>
+    <section class="bg-slate-800 rounded-2xl shadow-2xl overflow-hidden relative border border-slate-700 animate-fade-in-up">
+      <!-- Animated tech background -->
+      <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <div class="absolute inset-0 tech-pattern"></div>
+        <div class="absolute -top-20 -left-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl animate-pulse-slow delay-200"></div>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+        <div class="text-center lg:text-left lg:max-w-2xl">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <span class="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent typewriter">
+              Full-Stack Developer
+            </span>
           </h1>
-          <p class="hero-subtitle">
-            Transforming ideas into enterprise-grade solutions with 10+ years of expertise in 
+          <p class="text-lg sm:text-xl text-slate-300 mb-8 leading-relaxed">
+            Transforming ideas into enterprise-grade solutions with 10+ years of expertise in
             cloud architecture, agile transformation, and team leadership.
           </p>
-          <div class="hero-stats">
-            <div class="stat-item">
-              <div class="stat-number">10+</div>
-              <div class="stat-label">Years Experience</div>
+
+          <!-- Stats -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
+            <div class="bg-slate-700/50 backdrop-blur-sm rounded-xl p-6 text-center border border-slate-600 animate-fade-in-up animation-delay-200">
+              <div class="text-3xl font-bold text-white mb-1">10+</div>
+              <div class="text-slate-300 text-sm">Years Experience</div>
             </div>
-            <div class="stat-item">
-              <div class="stat-number">20+</div>
-              <div class="stat-label">Engineers Mentored</div>
+            <div class="bg-slate-700/50 backdrop-blur-sm rounded-xl p-6 text-center border border-slate-600 animate-fade-in-up animation-delay-400">
+              <div class="text-3xl font-bold text-white mb-1">20+</div>
+              <div class="text-slate-300 text-sm">Engineers Mentored</div>
             </div>
-            <div class="stat-item">
-              <div class="stat-number">30+</div>
-              <div class="stat-label">Projects Delivered</div>
+            <div class="bg-slate-700/50 backdrop-blur-sm rounded-xl p-6 text-center border border-slate-600 animate-fade-in-up animation-delay-600">
+              <div class="text-3xl font-bold text-white mb-1">30+</div>
+              <div class="text-slate-300 text-sm">Projects Delivered</div>
             </div>
           </div>
-          <div class="hero-cta">
-            <router-link to="/experience" class="btn btn-primary">View Experience</router-link>
-            <router-link to="/projects" class="btn btn-secondary">Explore Projects</router-link>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <router-link
+              to="/experience"
+              class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg"
+            >
+              View Experience
+            </router-link>
+            <router-link
+              to="/projects"
+              class="bg-gray-800 text-white border border-gray-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors duration-200"
+            >
+              Explore Projects
+            </router-link>
           </div>
         </div>
       </div>
-      <div class="hero-decoration">
-        <div class="floating-shape shape-1"></div>
-        <div class="floating-shape shape-2"></div>
-        <div class="floating-shape shape-3"></div>
-      </div>
+
+      <!-- Decorative elements -->
+      <div class="absolute top-10 right-10 w-20 h-20 bg-white/10 rounded-full blur-xl pointer-events-none"></div>
+      <div class="absolute bottom-10 left-10 w-32 h-32 bg-blue-400/20 rounded-full blur-2xl pointer-events-none"></div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section-modern">
-      <div class="section-header">
-        <span class="section-badge">About</span>
-        <h2>Who I Am</h2>
+    <section class="bg-slate-700 rounded-2xl shadow-sm border border-slate-600 p-8 lg:p-12 animate-fade-in-up">
+      <div class="text-center mb-8">
+        <span class="inline-block bg-blue-600/20 text-blue-300 text-sm font-semibold px-3 py-1 rounded-full mb-4 animate-pulse">
+          About
+        </span>
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Who I Am</h2>
       </div>
-      <div class="about-content">
-        <p class="lead-text">
-          With a decade of experience leading cross-functional teams and delivering enterprise-grade solutions, 
+      <div class="max-w-3xl mx-auto text-center space-y-6">
+        <p class="text-lg text-slate-300 leading-relaxed">
+          With a decade of experience leading cross-functional teams and delivering enterprise-grade solutions,
           I specialize in full-stack development, cloud architecture, and agile transformation.
         </p>
-        <p>
-          I believe in mentoring, continuous learning, and building scalable systems that empower businesses 
-          to achieve their goals. My approach combines technical excellence with strategic thinking to deliver 
+        <p class="text-lg text-slate-300 leading-relaxed">
+          I believe in mentoring, continuous learning, and building scalable systems that empower businesses
+          to achieve their goals. My approach combines technical excellence with strategic thinking to deliver
           solutions that make a real impact.
         </p>
       </div>
     </section>
 
     <!-- Experience Preview Section -->
-    <section id="experience" class="section-modern">
-      <div class="section-header">
-        <span class="section-badge">Career</span>
-        <h2>Professional Journey</h2>
-        <p class="section-description">
-          I've had the privilege of working with leading organizations, driving digital transformation 
-          and building high-performing teams. 
-          <router-link to="/experience" class="inline-link">View detailed experience →</router-link>
+    <section class="bg-slate-700 rounded-2xl shadow-sm border border-slate-600 p-8 lg:p-12 animate-fade-in-up">
+      <div class="text-center mb-12">
+        <span class="inline-block bg-green-600/20 text-green-300 text-sm font-semibold px-3 py-1 rounded-full mb-4 animate-pulse">
+          Career
+        </span>
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Professional Journey</h2>
+        <p class="text-lg text-slate-300 max-w-2xl mx-auto">
+          I've had the privilege of working with leading organizations, driving digital transformation
+          and building high-performing teams.
+          <br />
+          <router-link to="/experience" class="text-blue-400 hover:text-blue-300 font-semibold ml-2 transition-colors duration-200">
+            View detailed experience →
+          </router-link>
         </p>
       </div>
-      <div class="timeline-modern">
-        <div class="timeline-entry-modern">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-date">Nov 2018 – Jun 2025</div>
-            <h3 class="timeline-title">Technology Lead</h3>
-            <div class="timeline-company">Infosys</div>
-            <p class="timeline-description">Led migration to microservices; mentored 12+ engineers.</p>
+
+      <div class="max-w-4xl mx-auto space-y-8">
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-4 h-4 bg-blue-600 rounded-full mt-2"></div>
+          <div class="flex-1">
+            <div class="text-sm text-gray-400 mb-1">Nov 2018 – Jun 2025</div>
+            <h3 class="text-xl font-semibold text-white mb-1">Technology Lead</h3>
+            <div class="text-blue-400 font-medium mb-2">Infosys</div>
+            <p class="text-gray-300">Led migration to microservices; mentored 12+ engineers.</p>
           </div>
         </div>
-        <div class="timeline-entry-modern">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-date">Jan 2018 – Oct 2018</div>
-            <h3 class="timeline-title">Senior .NET Developer</h3>
-            <div class="timeline-company">Notetech Software</div>
-            <p class="timeline-description">Architected cloud-native solutions; improved CI/CD.</p>
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-4 h-4 bg-blue-600 rounded-full mt-2"></div>
+          <div class="flex-1">
+            <div class="text-sm text-gray-400 mb-1">Jan 2018 – Oct 2018</div>
+            <h3 class="text-xl font-semibold text-white mb-1">Senior .NET Developer</h3>
+            <div class="text-blue-400 font-medium mb-2">Notetech Software</div>
+            <p class="text-gray-300">Architected cloud-native solutions; improved CI/CD.</p>
           </div>
         </div>
-        <div class="timeline-entry-modern">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-date">Feb 2017 – Sep 2017</div>
-            <h3 class="timeline-title">Software Engineer L3</h3>
-            <div class="timeline-company">Zerone Consulting</div>
-            <p class="timeline-description">Built scalable APIs; introduced agile practices.</p>
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-4 h-4 bg-blue-600 rounded-full mt-2"></div>
+          <div class="flex-1">
+            <div class="text-sm text-gray-400 mb-1">Feb 2017 – Sep 2017</div>
+            <h3 class="text-xl font-semibold text-white mb-1">Software Engineer L3</h3>
+            <div class="text-blue-400 font-medium mb-2">Zerone Consulting</div>
+            <p class="text-gray-300">Built scalable APIs; introduced agile practices.</p>
           </div>
         </div>
-        <div class="timeline-entry-modern">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-date">Dec 2014 – Jan 2017</div>
-            <h3 class="timeline-title">Senior .NET Developer</h3>
-            <div class="timeline-company">Aabasoft Technologies</div>
-            <p class="timeline-description">Developed MVPs; wore multiple hats in dev & ops.</p>
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-4 h-4 bg-blue-600 rounded-full mt-2"></div>
+          <div class="flex-1">
+            <div class="text-sm text-gray-400 mb-1">Dec 2014 – Jan 2017</div>
+            <h3 class="text-xl font-semibold text-white mb-1">Senior .NET Developer</h3>
+            <div class="text-blue-400 font-medium mb-2">Aabasoft Technologies</div>
+            <p class="text-gray-300">Developed MVPs; wore multiple hats in dev & ops.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section-modern">
-      <div class="section-header">
-        <span class="section-badge">Expertise</span>
-        <h2>Technical Skills</h2>
+    <section id="skills" class="bg-slate-700 rounded-2xl shadow-sm border border-slate-600 p-8 lg:p-12 animate-fade-in-up">
+      <div class="text-center mb-12">
+        <span class="inline-block bg-purple-600/20 text-purple-300 text-sm font-semibold px-3 py-1 rounded-full mb-4 animate-pulse">
+          Expertise
+        </span>
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Technical Skills</h2>
       </div>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <div class="skill-icon">💻</div>
-          <h3 class="skill-title">Languages</h3>
-          <div class="skill-tags">
-            <span class="tag">C#</span>
-            <span class="tag">Java</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">TypeScript</span>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up">
+          <div class="text-3xl mb-4">💻</div>
+          <h3 class="text-lg font-semibold text-white mb-3">Languages</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-600/20 text-blue-300 text-sm px-3 py-1 rounded-full">C#</span>
+            <span class="bg-blue-600/20 text-blue-300 text-sm px-3 py-1 rounded-full">Java</span>
+            <span class="bg-blue-600/20 text-blue-300 text-sm px-3 py-1 rounded-full">JavaScript</span>
+            <span class="bg-blue-600/20 text-blue-300 text-sm px-3 py-1 rounded-full">TypeScript</span>
           </div>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">⚡</div>
-          <h3 class="skill-title">Frameworks</h3>
-          <div class="skill-tags">
-            <span class="tag">.NET Core</span>
-            <span class="tag">Spring Boot</span>
-            <span class="tag">Angular</span>
-            <span class="tag">React</span>
-            <span class="tag">Vue</span>
-            <span class="tag">Node.js</span>
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up" style="animation-delay: 100ms">
+          <div class="text-3xl mb-4">⚡</div>
+          <h3 class="text-lg font-semibold text-white mb-3">Frameworks</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-600/20 text-green-300 text-sm px-3 py-1 rounded-full">.NET Core</span>
+            <span class="bg-green-600/20 text-green-300 text-sm px-3 py-1 rounded-full">Spring Boot</span>
+            <span class="bg-green-600/20 text-green-300 text-sm px-3 py-1 rounded-full">Angular</span>
+            <span class="bg-green-600/20 text-green-300 text-sm px-3 py-1 rounded-full">React</span>
+            <span class="bg-green-600/20 text-green-300 text-sm px-3 py-1 rounded-full">Vue</span>
+            <span class="bg-green-600/20 text-green-300 text-sm px-3 py-1 rounded-full">Node.js</span>
           </div>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">☁️</div>
-          <h3 class="skill-title">Cloud</h3>
-          <div class="skill-tags">
-            <span class="tag">Azure</span>
-            <span class="tag">GCP</span>
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up" style="animation-delay: 200ms">
+          <div class="text-3xl mb-4">☁️</div>
+          <h3 class="text-lg font-semibold text-white mb-3">Cloud</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-orange-600/20 text-orange-300 text-sm px-3 py-1 rounded-full">Azure</span>
+            <span class="bg-orange-600/20 text-orange-300 text-sm px-3 py-1 rounded-full">GCP</span>
           </div>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">🚀</div>
-          <h3 class="skill-title">DevOps</h3>
-          <div class="skill-tags">
-            <span class="tag">Docker</span>
-            <span class="tag">Kubernetes</span>
-            <span class="tag">Jenkins</span>
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up" style="animation-delay: 300ms">
+          <div class="text-3xl mb-4">🚀</div>
+          <h3 class="text-lg font-semibold text-white mb-3">DevOps</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-red-600/20 text-red-300 text-sm px-3 py-1 rounded-full">Docker</span>
+            <span class="bg-red-600/20 text-red-300 text-sm px-3 py-1 rounded-full">Kubernetes</span>
+            <span class="bg-red-600/20 text-red-300 text-sm px-3 py-1 rounded-full">Jenkins</span>
           </div>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">👥</div>
-          <h3 class="skill-title">Leadership</h3>
-          <div class="skill-tags">
-            <span class="tag">Agile</span>
-            <span class="tag">Scrum</span>
-            <span class="tag">Team Building</span>
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up" style="animation-delay: 300ms">
+          <div class="text-3xl mb-4">👥</div>
+          <h3 class="text-lg font-semibold text-white mb-3">Leadership</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-indigo-900/50 text-indigo-300 text-sm px-3 py-1 rounded-full">Agile</span>
+            <span class="bg-indigo-900/50 text-indigo-300 text-sm px-3 py-1 rounded-full">Scrum</span>
+            <span class="bg-indigo-900/50 text-indigo-300 text-sm px-3 py-1 rounded-full">Team Building</span>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Projects Preview Section -->
-    <section id="projects" class="section-modern">
-      <div class="section-header">
-        <span class="section-badge">Portfolio</span>
-        <h2>Featured Projects</h2>
-        <p class="section-description">
-          I've led and contributed to impactful projects across various domains. 
-          <router-link to="/projects" class="inline-link">View full portfolio →</router-link>
+    <section class="bg-slate-700 rounded-2xl shadow-sm border border-slate-600 p-8 lg:p-12 animate-fade-in-up">
+      <div class="text-center mb-12">
+        <span class="inline-block bg-pink-600/20 text-pink-300 text-sm font-semibold px-3 py-1 rounded-full mb-4 animate-pulse">
+          Portfolio
+        </span>
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Featured Projects</h2>
+        <p class="text-lg text-slate-300 max-w-2xl mx-auto">
+          I've led and contributed to impactful projects across various domains.
+          <router-link to="/projects" class="text-blue-400 hover:text-blue-300 font-semibold ml-2 transition-colors duration-200">
+            View full portfolio →
+          </router-link>
         </p>
       </div>
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-header">
-            <h3 class="project-title">OCC Hub</h3>
-            <span class="project-badge">Enterprise</span>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up">
+          <div class="flex justify-between items-start mb-4">
+            <h3 class="text-lg font-semibold text-white">OCC Hub</h3>
+            <span class="bg-blue-600/20 text-blue-300 text-xs px-2 py-1 rounded-full">Enterprise</span>
           </div>
-          <p class="project-description">
-            Operational Control Center Hub - A single place for monitoring and scheduling jobs 
+          <p class="text-slate-400">
+            Operational Control Center Hub - A single place for monitoring and scheduling jobs
             for telecom technicians.
           </p>
         </div>
-        <div class="project-card">
-          <div class="project-header">
-            <h3 class="project-title">Order Management System</h3>
-            <span class="project-badge">Telecom</span>
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up" style="animation-delay: 100ms">
+          <div class="flex justify-between items-start mb-4">
+            <h3 class="text-lg font-semibold text-white">Order Management System</h3>
+            <span class="bg-green-600/20 text-green-300 text-xs px-2 py-1 rounded-full">Telecom</span>
           </div>
-          <p class="project-description">
-            Built for a leading telecom client to manage wholesale orders efficiently through 
+          <p class="text-slate-400">
+            Built for a leading telecom client to manage wholesale orders efficiently through
             voice process automation.
           </p>
         </div>
-        <div class="project-card">
-          <div class="project-header">
-            <h3 class="project-title">Keystone</h3>
-            <span class="project-badge">Analytics</span>
+        <div class="bg-slate-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-slate-600 hover:border-slate-500 animate-fade-in-up" style="animation-delay: 200ms">
+          <div class="flex justify-between items-start mb-4">
+            <h3 class="text-lg font-semibold text-white">Keystone</h3>
+            <span class="bg-purple-600/20 text-purple-300 text-xs px-2 py-1 rounded-full">Analytics</span>
           </div>
-          <p class="project-description">
-            Real-time insights platform for key performance indicators, enabling data-driven 
+          <p class="text-slate-400">
+            Real-time insights platform for key performance indicators, enabling data-driven
             decision-making and operational efficiency.
           </p>
         </div>
@@ -211,32 +248,49 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section-modern contact-section">
-      <div class="section-header">
-        <span class="section-badge">Get In Touch</span>
-        <h2>Let's Connect</h2>
-        <p class="section-description">
+    <section id="contact" class="bg-slate-700 rounded-2xl shadow-sm border border-slate-600 p-8 lg:p-12 animate-fade-in-up">
+      <div class="text-center mb-12">
+        <span class="inline-block bg-teal-600/20 text-teal-300 text-sm font-semibold px-3 py-1 rounded-full mb-4 animate-pulse">
+          Get In Touch
+        </span>
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Let's Connect</h2>
+        <p class="text-lg text-slate-300 max-w-2xl mx-auto">
           I'm always open to discussing new opportunities, innovative projects, or just having a chat about technology.
         </p>
       </div>
-      <div class="contact-content">
-        <div class="contact-info">
-          <a href="mailto:jithinsbstn@gmail.com" class="contact-item">
-            <div class="contact-icon">✉️</div>
-            <div class="contact-details">
-              <div class="contact-label">Email</div>
-              <div class="contact-value">jithinsbstn@gmail.com</div>
-            </div>
+
+      <div class="max-w-md mx-auto">
+        <a
+          href="mailto:jithinsbstn@gmail.com"
+          class="flex items-center p-4 bg-gray-700 rounded-xl hover:bg-gray-600 transition-colors duration-200 mb-6 border border-gray-600"
+        >
+          <div class="text-2xl mr-4">✉️</div>
+          <div>
+            <div class="font-semibold text-white">Email</div>
+            <div class="text-gray-300">jithinsbstn@gmail.com</div>
+          </div>
+        </a>
+
+        <div class="flex justify-center space-x-6">
+          <a
+            href="https://linkedin.com/in/jithinsebastian"
+            target="_blank"
+            class="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-200"
+            aria-label="LinkedIn"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.88 1 4.98 2.12 4.98 3.5ZM0 24H5V7H0V24ZM8.5 7H13V9.5H13.1C13.9 8.2 15.7 7 18 7C22.07 7 24 9.42 24 13.88V24H19V14.75C19 12.48 18.95 9.85 16 9.85C13.05 9.85 12.6 12.15 12.6 14.61V24H8.5V7Z" fill="currentColor"/>
+            </svg>
           </a>
-        </div>
-        <div class="contact-links-modern">
-          <a href="https://linkedin.com/in/jithinsebastian" target="_blank" class="social-link linkedin">
-            <span class="social-icon">💼</span>
-            <span>LinkedIn</span>
-          </a>
-          <a href="https://github.com/jithinsebastian-git" target="_blank" class="social-link github">
-            <span class="social-icon">🔗</span>
-            <span>GitHub</span>
+          <a
+            href="https://github.com/jithinsebastian-git"
+            target="_blank"
+            class="flex items-center justify-center w-12 h-12 bg-gray-700 text-white rounded-full hover:bg-gray-600 transition-colors duration-200 border border-gray-600"
+            aria-label="GitHub"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0.297C5.37 0.297 0 5.67 0 12.305C0 17.6 3.438 22.037 8.207 23.545C8.807 23.64 9.025 23.31 9.025 23.02C9.025 22.76 9.015 22.02 9.01 21.04C5.672 21.66 4.967 19.37 4.967 19.37C4.422 17.97 3.633 17.6 3.633 17.6C2.545 16.82 3.717 16.84 3.717 16.84C4.922 16.92 5.555 18.07 5.555 18.07C6.63 19.84 8.342 19.35 9.048 19.08C9.144 18.31 9.452 17.78 9.795 17.48C7.12 17.18 4.344 16.14 4.344 11.54C4.344 10.22 4.818 9.14 5.578 8.3C5.455 8 5.045 6.75 5.688 5.1C5.688 5.1 6.698 4.78 8.998 6.36C9.948 6.1 10.968 5.97 11.99 5.97C13.01 5.97 14.03 6.1 14.98 6.36C17.278 4.78 18.288 5.1 18.288 5.1C18.93 6.75 18.52 8 18.398 8.3C19.16 9.14 19.634 10.22 19.634 11.54C19.634 16.15 16.854 17.17 14.17 17.47C14.62 17.84 15.02 18.58 15.02 19.7C15.02 21.32 15.01 22.61 15.01 23.02C15.01 23.31 15.23 23.65 15.84 23.54C20.61 22.03 24 17.6 24 12.305C24 5.67 18.63 0.297 12 0.297Z" fill="currentColor"/>
+            </svg>
           </a>
         </div>
       </div>
@@ -251,604 +305,75 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  width: 100%;
-}
-
-/* Hero Section */
-.hero {
-  position: relative;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 20px;
-  padding: 4rem 3rem;
-  margin-top: 0;
-  margin-bottom: 3rem;
-  overflow: hidden;
-  color: white;
-  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.25);
-  z-index: 1;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 20px;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 900px;
-}
-
-.hero-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
-  font-family: 'Poppins', sans-serif;
-  color: #ffffff;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3), 0 4px 20px rgba(0, 0, 0, 0.2);
-}
-
-.gradient-text {
-  color: #ffffff;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3), 0 4px 20px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-}
-
-.hero-subtitle {
-  font-size: 1.25rem;
-  line-height: 1.6;
-  margin-bottom: 2.5rem;
-  color: #ffffff;
-  max-width: 700px;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  font-weight: 400;
-}
-
-.hero-stats {
-  display: flex;
-  gap: 3rem;
-  margin-bottom: 2.5rem;
-  flex-wrap: wrap;
-}
-
-.stat-item {
-  text-align: center;
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 0.25rem;
-  color: #ffffff;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.stat-label {
-  font-size: 0.9rem;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  opacity: 0.95;
-}
-
-.hero-cta {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.btn {
-  padding: 0.875rem 2rem;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  display: inline-block;
-  font-size: 1rem;
-}
-
-.btn-primary {
-  background: white;
-  color: #667eea;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-.btn-secondary {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: translateY(-2px);
-}
-
-/* Hero Decoration */
-.hero-decoration {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.floating-shape {
-  position: absolute;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
-  animation: float 20s infinite ease-in-out;
-  z-index: 1;
-}
-
-.shape-1 {
-  width: 300px;
-  height: 300px;
-  top: -100px;
-  right: -100px;
-  animation-delay: 0s;
-}
-
-.shape-2 {
-  width: 200px;
-  height: 200px;
-  bottom: -50px;
-  left: -50px;
-  animation-delay: 5s;
-}
-
-.shape-3 {
-  width: 150px;
-  height: 150px;
-  top: 50%;
-  right: 10%;
-  animation-delay: 10s;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translate(0, 0) rotate(0deg);
+@keyframes tech-move {
+  from {
+    background-position: 0 0;
   }
-  33% {
-    transform: translate(30px, -30px) rotate(120deg);
-  }
-  66% {
-    transform: translate(-20px, 20px) rotate(240deg);
+  to {
+    background-position: 160px 160px;
   }
 }
 
-/* Modern Section Styles */
-.section-modern {
-  background: white;
-  padding: 3rem;
-  margin-bottom: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.section-modern:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-}
-
-.section-header {
-  margin-bottom: 2rem;
-}
-
-.section-badge {
-  display: inline-block;
-  padding: 0.4rem 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 1rem;
-}
-
-.section-header h2 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin-bottom: 0.75rem;
-  font-family: 'Poppins', sans-serif;
-}
-
-.section-description {
-  color: #64748b;
-  line-height: 1.7;
-  font-size: 1.05rem;
-}
-
-.inline-link {
-  color: #667eea;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.inline-link:hover {
-  color: #764ba2;
-  text-decoration: underline;
-}
-
-/* About Section */
-.about-content {
-  max-width: 800px;
-}
-
-.lead-text {
-  font-size: 1.25rem;
-  line-height: 1.8;
-  color: #2d3748;
-  margin-bottom: 1.5rem;
-  font-weight: 500;
-}
-
-.about-content p {
-  color: #4a5568;
-  line-height: 1.8;
-  font-size: 1.05rem;
-}
-
-/* Modern Timeline */
-.timeline-modern {
-  position: relative;
-  padding-left: 2rem;
-}
-
-.timeline-modern::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
-  border-radius: 2px;
-}
-
-.timeline-entry-modern {
-  position: relative;
-  margin-bottom: 2.5rem;
-  padding-left: 2.5rem;
-}
-
-.timeline-marker {
-  position: absolute;
-  left: -1.5rem;
-  top: 0.5rem;
-  width: 16px;
-  height: 16px;
-  background: #667eea;
-  border-radius: 50%;
-  border: 4px solid white;
-  box-shadow: 0 0 0 3px #667eea;
-}
-
-.timeline-content {
-  background: #f8fafc;
-  padding: 1.5rem;
-  border-radius: 12px;
-  transition: all 0.3s ease;
-  border-left: 3px solid transparent;
-}
-
-.timeline-entry-modern:hover .timeline-content {
-  background: #f1f5f9;
-  border-left-color: #667eea;
-  transform: translateX(5px);
-}
-
-.timeline-date {
-  font-size: 0.85rem;
-  color: #667eea;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.timeline-title {
-  font-size: 1.35rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin-bottom: 0.25rem;
-  font-family: 'Poppins', sans-serif;
-}
-
-.timeline-company {
-  color: #667eea;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-  font-size: 1rem;
-}
-
-.timeline-description {
-  color: #4a5568;
-  line-height: 1.6;
-}
-
-/* Skills Grid */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.skill-card {
-  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
-  padding: 2rem;
-  border-radius: 12px;
-  text-align: center;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
-}
-
-.skill-card:hover {
-  transform: translateY(-5px);
-  border-color: #667eea;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.15);
-}
-
-.skill-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.skill-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin-bottom: 1rem;
-  font-family: 'Poppins', sans-serif;
-}
-
-.skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-.tag {
-  padding: 0.4rem 0.9rem;
-  background: white;
-  color: #667eea;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border: 1px solid #e2e8f0;
-  transition: all 0.3s ease;
-}
-
-.tag:hover {
-  background: #667eea;
-  color: white;
-  transform: scale(1.05);
-}
-
-/* Projects Grid */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
-.project-card {
-  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-  padding: 2rem;
-  border-radius: 12px;
-  border: 2px solid #e2e8f0;
-  transition: all 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  border-color: #667eea;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.15);
-}
-
-.project-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-}
-
-.project-title {
-  font-size: 1.35rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-}
-
-.project-badge {
-  padding: 0.25rem 0.75rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 12px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.project-description {
-  color: #4a5568;
-  line-height: 1.7;
-  margin: 0;
-}
-
-/* Contact Section */
-.contact-section {
-  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
-}
-
-.contact-content {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  align-items: center;
-}
-
-.contact-info {
-  width: 100%;
-  max-width: 500px;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 12px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
-}
-
-.contact-item:hover {
-  transform: translateY(-3px);
-  border-color: #667eea;
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.15);
-}
-
-.contact-icon {
-  font-size: 2rem;
-}
-
-.contact-details {
-  flex: 1;
-}
-
-.contact-label {
-  font-size: 0.85rem;
-  color: #64748b;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.25rem;
-}
-
-.contact-value {
-  font-size: 1.1rem;
-  color: #1a202c;
-  font-weight: 600;
-}
-
-.contact-links-modern {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.social-link {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 1rem 2rem;
-  background: white;
-  color: #1a202c;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  border: 2px solid #e2e8f0;
-}
-
-.social-link:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-}
-
-.social-link.linkedin:hover {
-  border-color: #0077b5;
-  color: #0077b5;
-}
-
-.social-link.github:hover {
-  border-color: #333;
-  color: #333;
-}
-
-.social-icon {
-  font-size: 1.25rem;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero {
-    padding: 2.5rem 1.5rem;
+@keyframes pulse-slow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.65;
   }
-
-  .hero-title {
-    font-size: 2.25rem;
+  50% {
+    transform: scale(1.12);
+    opacity: 0.18;
   }
+}
 
-  .hero-subtitle {
-    font-size: 1.1rem;
+@keyframes typing {
+  from {
+    width: 0;
   }
-
-  .hero-stats {
-    gap: 2rem;
-  }
-
-  .stat-number {
-    font-size: 2rem;
-  }
-
-  .section-modern {
-    padding: 2rem 1.5rem;
-  }
-
-  .section-header h2 {
-    font-size: 1.75rem;
-  }
-
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .timeline-modern {
-    padding-left: 1.5rem;
-  }
-
-  .timeline-entry-modern {
-    padding-left: 2rem;
-  }
-
-  .hero-cta {
-    flex-direction: column;
-  }
-
-  .btn {
+  to {
     width: 100%;
-    text-align: center;
   }
+}
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: currentColor;
+  }
+}
+
+@keyframes tech-move {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 160px 160px;
+  }
+}
+
+.tech-pattern {
+  background-image: radial-gradient(circle, rgba(148, 163, 184, 0.35) 1px, transparent 1px);
+  background-size: 25px 25px;
+  opacity: 0.15;
+  animation: tech-move 14s linear infinite;
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typing 2.5s steps(30, end), blink-caret 0.8s step-end infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
 }
 </style>
