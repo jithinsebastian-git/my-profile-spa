@@ -17,16 +17,16 @@
     <!-- Projects Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
       <article
-        class="bg-slate-800 rounded-2xl shadow-sm border border-slate-600 p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+        class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-sm border border-slate-600/50 p-6 hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300 hover:-translate-y-1 hover:border-slate-500/70 group"
         v-for="(project, i) in projects"
         :key="i"
       >
         <div class="flex justify-between items-start mb-4">
-          <h3 class="text-lg font-semibold text-white">{{ project.title }}</h3>
-          <span class="text-sm text-slate-400 bg-slate-700 px-2 py-1 rounded-full border border-slate-600">{{ project.year }}</span>
+          <h3 class="text-lg font-semibold text-white group-hover:text-blue-300 transition-colors duration-200">{{ project.title }}</h3>
+          <span class="text-sm text-slate-400 bg-slate-700/50 px-2 py-1 rounded-full border border-slate-600/30">{{ project.year }}</span>
         </div>
 
-        <p class="text-slate-300 mb-4 line-clamp-3">{{ project.description }}</p>
+        <p class="text-slate-300 mb-4 line-clamp-3 group-hover:text-slate-200 transition-colors duration-200">{{ project.description }}</p>
 
         <div v-if="project.technologies?.length" class="mb-4">
           <h4 class="text-sm font-semibold text-white mb-2">Technologies</h4>
@@ -34,13 +34,13 @@
             <span
               v-for="(t, ti) in project.technologies.slice(0, 3)"
               :key="ti"
-              class="bg-blue-600/20 text-blue-300 text-xs px-2 py-1 rounded-full"
+              class="bg-blue-600/20 text-blue-300 text-xs px-2 py-1 rounded-full hover:bg-blue-600/30 transition-colors duration-200"
             >
               {{ t }}
             </span>
             <span
               v-if="project.technologies.length > 3"
-              class="bg-slate-700 text-slate-300 text-xs px-2 py-1 rounded-full border border-slate-600"
+              class="bg-slate-700/50 text-slate-300 text-xs px-2 py-1 rounded-full border border-slate-600/30"
             >
               +{{ project.technologies.length - 3 }} more
             </span>
@@ -70,11 +70,11 @@
         </div>
 
         <button
-          class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+          class="w-full bg-blue-600/80 backdrop-blur-sm text-white py-3 px-4 rounded-lg hover:bg-blue-600 transition-all duration-200 flex items-center justify-center space-x-2 border border-blue-500/30 hover:border-blue-400/50 shadow-lg hover:shadow-blue-500/20 group-hover:shadow-blue-500/30"
           @click="openProject(i)"
         >
           <span>Read More</span>
-          <span>↗</span>
+          <span class="group-hover:translate-x-1 transition-transform duration-200">↗</span>
         </button>
       </article>
     </div>
@@ -82,25 +82,29 @@
     <!-- Modal -->
     <div
       v-if="activeProjectIndex !== null"
-      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+      class="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center p-4 z-50"
       @click.self="closeProject"
     >
-      <div class="bg-slate-800 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto border border-slate-600">
-        <div class="p-6 lg:p-8">
-          <div class="flex justify-between items-start mb-6">
+      <div class="bg-slate-800/95 backdrop-blur-md rounded-2xl max-w-2xl w-full max-h-[90vh] border border-slate-600/50 shadow-2xl flex flex-col">
+        <!-- Fixed Header -->
+        <div class="p-6 lg:p-8 border-b border-slate-600/30 flex-shrink-0">
+          <div class="flex justify-between items-start">
             <div>
               <h3 class="text-2xl font-bold text-white">{{ activeProject.title }}</h3>
               <p class="text-slate-400 mt-1">{{ activeProject.year }}</p>
             </div>
             <button
-              class="text-slate-400 hover:text-slate-200 text-2xl"
+              class="text-slate-400 hover:text-slate-200 text-2xl transition-colors duration-200"
               @click="closeProject"
               aria-label="Close"
             >
               ×
             </button>
           </div>
+        </div>
 
+        <!-- Scrollable Content (including overview) -->
+        <div class="flex-1 overflow-y-auto p-6 lg:p-8 pt-0">
           <div class="space-y-6">
             <div>
               <h4 class="text-lg font-semibold text-white mb-2">Overview</h4>
