@@ -1,0 +1,55 @@
+[
+    {
+        "type": "Certification",
+        "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+        "issuer": "Microsoft",
+        "date": "2022",
+        "description": "Foundational knowledge of cloud concepts, core Azure services, security, privacy, compliance, and trust.",
+        "link": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/"
+    },
+    {
+        "type": "Certification",
+        "title": "Microsoft Certified: Azure Developer Associate (AZ-204)",
+        "issuer": "Microsoft",
+        "date": "2022",
+        "description": "Proven skills in designing, building, testing, and maintaining cloud applications and services on Microsoft Azure.",
+        "link": "https://learn.microsoft.com/en-us/certifications/azure-developer/"
+    },
+    {
+        "type": "Certification",
+        "title": "Microsoft Certified: Azure Data Fundamentals (DP-900)",
+        "issuer": "Microsoft",
+        "date": "2021",
+        "description": "Demonstrated foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.",
+        "link": "https://learn.microsoft.com/en-us/certifications/azure-data-fundamentals/"
+    },
+    {
+        "type": "Certification",
+        "title": "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)",
+        "issuer": "Microsoft",
+        "date": "2021",
+        "description": "Validated understanding of security, compliance, and identity concepts and related cloud-based Microsoft services.",
+        "link": "https://learn.microsoft.com/en-us/certifications/security-compliance-and-identity-fundamentals/"
+    },
+    {
+        "type": "Certification",
+        "title": "Generative & Prompt Engineering Fundamentals",
+        "issuer": "Infosys (Internal Program)",
+        "date": "2024",
+        "description": "Completed an internal certification program focused on generative AI workflows, prompt engineering, and effective use of AI in product development."
+    },
+    {
+        "type": "Award",
+        "title": "Insta Award for Cloud Excellence",
+        "issuer": "Infosys",
+        "date": "2023",
+        "description": "Recognized for outstanding technical leadership and delivering critical cloud transformation milestones ahead of schedule."
+    },
+    {
+        "type": "Award",
+        "title": "Unsung Hero Award for Mentorship",
+        "issuer": "Infosys",
+        "date": "2022",
+        "description": "Awarded for consistent mentorship and enabling the professional growth of engineers through coaching, knowledge-sharing sessions, and hands-on guidance."
+    }
+]

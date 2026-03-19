@@ -2,11 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import Projects from '../components/Projects.vue'
 import Experience from '../components/Experience.vue'
+import Awards from '../components/Awards.vue'
 
 const routes = [
     { path: '/', name: 'Home', component: Home },
-    { path: '/projects', name: 'Projects', component: Projects },
     { path: '/experience', name: 'Experience', component: Experience },
+    { path: '/projects', name: 'Projects', component: Projects },
+    { path: '/awards', name: 'Awards', component: Awards },
     { path: '/:pathMatch(.*)*', redirect: '/' } // Redirect unknown paths to Home
 ]
 

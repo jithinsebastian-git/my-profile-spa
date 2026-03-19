@@ -48,6 +48,14 @@
             >
               Projects
             </router-link>
+            <router-link
+              to="/awards"
+              class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+              active-class="text-white bg-blue-900/40"
+              exact-active-class="text-white bg-blue-900/40"
+            >
+              Awards
+            </router-link>
             <a
               href="/#contact"
               class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
@@ -103,6 +111,14 @@
               active-class="text-blue-400 bg-blue-900/20"
             >
               Projects
+            </router-link>
+            <router-link
+              to="/awards"
+              @click="closeMobileMenu"
+              class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+              active-class="text-blue-400 bg-blue-900/20"
+            >
+              Awards
             </router-link>
             <a
               href="/#contact"
