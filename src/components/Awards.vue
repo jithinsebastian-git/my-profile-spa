@@ -45,6 +45,8 @@
       name="list"
       tag="div"
       class="grid grid-cols-1 lg:grid-cols-2 gap-6"
+      appear
+      :duration="{ enter: 220, leave: 220, move: 220 }"
     >
       <article
         v-for="(item, index) in filteredAwards"
@@ -158,21 +160,32 @@ export default {
   .list-enter-from,
   .list-leave-to {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(12px) scale(0.98);
   }
 
   .list-enter-to,
   .list-leave-from {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 
   .list-enter-active,
-  .list-leave-active {
-    transition: opacity 240ms ease, transform 240ms ease;
+  .list-leave-active,
+  .list-move {
+    transition: opacity 220ms cubic-bezier(0.4, 0.0, 0.2, 1),
+      transform 220ms cubic-bezier(0.4, 0.0, 0.2, 1);
   }
 
   .list-move {
-    transition: transform 240ms ease;
+    transition-property: transform;
+  }
+
+  /* Make sure transition starts even when items are removed/added quickly */
+  .list-enter-active {
+    transition-delay: 0ms;
+  }
+
+  .list-leave-active {
+    transition-delay: 0ms;
   }
 </style>
