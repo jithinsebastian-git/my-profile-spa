@@ -60,10 +60,31 @@
         "description": "Recognized for outstanding technical leadership and delivering critical cloud transformation milestones ahead of schedule."
     },
     {
+        "type": "Award",
+        "title": "Platinum club membership",
+        "issuer": "Infosys",
+        "date": "2022",
+        "description": "Recognized for outstanding perforamce in learning and career center in internal infosys platform, achieving platinum club membership status for consistent engagement and excellence in learning."
+    },
+    {
         "type": "Certification",
         "title": "Generative & Prompt Engineering Fundamentals",
         "issuer": "Infosys (Internal Program)",
         "date": "2024",
         "description": "Completed an internal certification program focused on generative AI workflows, prompt engineering, and effective use of AI in product development."
+    },
+    {
+        "type": "Award",
+        "title": "RSU ESOP Awards - 2024",
+        "issuer": "Infosys",
+        "date": "2024",
+        "description": "Recognized for outstaning performance during the period, contributing to the company's success and growth, and being awarded RSU ESOPs as part of the annual recognition program."
+    },
+    {
+        "type": "Award",
+        "title": "RSU ESOP Awards - 2025",
+        "issuer": "Infosys",
+        "date": "2025",
+        "description": "Recognized for outstaning performance during the period and second RSU ESOP award, contributing to the accounts growth progress and being awarded RSU ESOP as part of platinum club recognition program."
     }
 ]
