@@ -1,19 +1,25 @@
 [
     {
+        "type": "Award",
+        "title": "Performance Excellence Award",
+        "issuer": "Aabasoft",
+        "date": "2015",
+        "description": "Recognized for outstanding performance and dedication in delivering high-quality software solutions"
+    },
+    {
+        "type": "Award",
+        "title": "Performance Excellence Award",
+        "issuer": "Aabasoft",
+        "date": "2016",
+        "description": "Recognized for outstanding performance and leadership for delivering critical projects on time and mentoring junior developers"
+    },
+    {
         "type": "Certification",
         "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
         "issuer": "Microsoft",
         "date": "2021",
         "description": "Foundational knowledge of cloud concepts, core Azure services, security, privacy, compliance, and trust.",
         "link": "https://learn.microsoft.com/api/credentials/share/en-us/JithinSebastian/9A78BCC12998581C?sharingId=1B404C55A26327A7"
-    },
-    {
-        "type": "Certification",
-        "title": "Microsoft Certified: Azure Developer Associate (AZ-204)",
-        "issuer": "Microsoft",
-        "date": "2022",
-        "description": "Proven skills in designing, building, testing, and maintaining cloud applications and services on Microsoft Azure.",
-        "link": "https://learn.microsoft.com/api/credentials/share/en-us/JithinSebastian/6C3E1B91B003D130?sharingId=1B404C55A26327A7"
     },
     {
         "type": "Certification",
@@ -25,6 +31,14 @@
     },
     {
         "type": "Certification",
+        "title": "Microsoft Certified: Azure Developer Associate (AZ-204)",
+        "issuer": "Microsoft",
+        "date": "2022",
+        "description": "Proven skills in designing, building, testing, and maintaining cloud applications and services on Microsoft Azure.",
+        "link": "https://learn.microsoft.com/api/credentials/share/en-us/JithinSebastian/6C3E1B91B003D130?sharingId=1B404C55A26327A7"
+    },
+    {
+        "type": "Certification",
         "title": "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)",
         "issuer": "Microsoft",
         "date": "2022",
@@ -32,11 +46,11 @@
         "link": "https://learn.microsoft.com/api/credentials/share/en-us/JithinSebastian/402F6468F357A3DD?sharingId=1B404C55A26327A7"
     },
     {
-        "type": "Certification",
-        "title": "Generative & Prompt Engineering Fundamentals",
-        "issuer": "Infosys (Internal Program)",
-        "date": "2024",
-        "description": "Completed an internal certification program focused on generative AI workflows, prompt engineering, and effective use of AI in product development."
+        "type": "Award",
+        "title": "Unsung Hero Award for Mentorship",
+        "issuer": "Infosys",
+        "date": "2022",
+        "description": "Awarded for consistent mentorship and enabling the professional growth of engineers through coaching, knowledge-sharing sessions, and hands-on guidance."
     },
     {
         "type": "Award",
@@ -46,10 +60,10 @@
         "description": "Recognized for outstanding technical leadership and delivering critical cloud transformation milestones ahead of schedule."
     },
     {
-        "type": "Award",
-        "title": "Unsung Hero Award for Mentorship",
-        "issuer": "Infosys",
-        "date": "2022",
-        "description": "Awarded for consistent mentorship and enabling the professional growth of engineers through coaching, knowledge-sharing sessions, and hands-on guidance."
+        "type": "Certification",
+        "title": "Generative & Prompt Engineering Fundamentals",
+        "issuer": "Infosys (Internal Program)",
+        "date": "2024",
+        "description": "Completed an internal certification program focused on generative AI workflows, prompt engineering, and effective use of AI in product development."
     }
 ]
