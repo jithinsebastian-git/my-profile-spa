@@ -27,7 +27,7 @@
     },
     {
         "title": "Order Management System (Voice Process)",
-        "year": "2022 - 2024",
+        "year": "2022-2024",
         "description": "Developed an order management system to support the internal voice-based ordering process for telecom services. The system streamlined order capture, validation, provisioning, and tracking, significantly improving operational efficiency and customer satisfaction.",
         "technologies": [
             ".NET MVC",
@@ -52,7 +52,7 @@
     },
     {
         "title": "Keystone",
-        "year": "2019 - 2022",
+        "year": "2019-2022",
         "description": "Developed a custom business intelligence dashboard with drill-down functionalities using Vue.js and .NET Core APIs for telecom operations and order management systems. The platform provided real-time insights into key performance indicators, enabling data-driven decision-making and improving operational efficiency.",
         "technologies": [
             "Vue.js",
@@ -79,7 +79,7 @@
     },
     {
         "title": "Warehouse Management System (WMS) - Wholesale",
-        "year": "2018 - 2019",
+        "year": "2018-2019",
         "description": "Migration project to develop a Warehouse Management System (WMS) for a wholesale distribution client. The system optimized inventory management and order fulfillment, improving warehouse efficiency, reducing errors, and enhancing overall operational performance.",
         "technologies": [
             "ASP.NET MVC",
@@ -145,16 +145,18 @@
     },
     {
         "title": "Dynamic CRM with VoIP Integration",
-        "year": "2015- 2016",
+        "year": "2016",
         "description": "This application is a comprehensive business communication and customization platform designed to adapt seamlessly to diverse organizational requirements. It empowers enterprises to tailor the user interface (UI) according to specific business workflows, ensuring that each department and client interaction is optimized for efficiency and ease of use. A key feature of the system is its VoIP integration, enabling smooth handling of both internal and external BPO processes. By consolidating communication channels, the application supports streamlined call management across multiple teams and client accounts. Currently, the platform is actively used by 600+ users spanning various departments and client organizations, highlighting its scalability and reliability in real-world operations.",
         "technologies": [
             "Angular",
             "ASP.NET MVC",
             "MS SQL Server",
-            "Stored Procedures"
+            "Stored Procedures",
+            "Entity Framework",
+            "VoIP Integration"
         ],
         "responsibilities": [
-            "Designed and developed admin and user modules for Dynamic CRM system.",
+            "Architected and developed admin and user modules for Dynamic CRM system.",
             "Application workflow customization tool implemented to adapt UI for various departments and clients.",
             "Integrated various charts to visualize data effectively.",
             "Created and optimized database logic for performance improvements.",
@@ -162,5 +164,125 @@
             "Third party VoIP integration for seamless call handling in BPO processes."
         ],
         "impact": "Imporved productivity by 35% through tailored workflows and efficient communication management."
+    },
+    {
+        "title": "IndiaEve",
+        "year": "2016",
+        "description": "Web Application, which offers event management teams to advertise their events by region and category. It provides a comprehensive suite of functionalities, including event creation, ticketing, and reporting. The application is designed to streamline event management processes, enhance visibility for event organizers, and improve overall efficiency for users looking to discover and attend events across India.",
+        "technologies": [
+            "ASP.NET MVC",
+            "Ajax",
+            "jQuery",
+            "Bootstrap",
+            "Entity Framework",
+            "Payment Gateway Integration",
+            "SSRS",
+            "MS SQL Server",
+            "Stored Procedures"
+        ],
+        "responsibilities": [
+            "Designed and architected a comprehensive advertising and ticketing platform for event management teams, including event creation, ticketing, and reporting modules.",
+            "Colloboration with team and stakeholders to finalize the requirements and design of the application.",
+            "Data base design and implementation using MS SQL Server, including stored procedures for efficient data retrieval and reporting.",
+            "Implemeneted various levels of security features to safeguard sensitive user and event data.",
+            "Conducted code reviews and mentored junior developers on best practices.",
+            "Implemented various site optimization techniques, resulting in a 30% improvement in page load times and overall performance.",
+            "SEO integration to enhance the visibility of events and drive more traffic to the platform."
+        ],
+        "impact": "https://www.indiaeve.com/ | Increased event attendance by 25% through improved visibility and streamlined ticketing processes."
+    },
+    {
+        "title": "AccountBox",
+        "year": "2015-2016",
+        "description": "Web Based ERP Application, which is an integration of necessary accounting tools and features to manage the financial operations of a business. It provides a comprehensive suite of functionalities, including invoicing, expense tracking, financial reporting, and tax management. The application is designed to streamline accounting processes, enhance financial visibility, and improve overall efficiency for businesses of all sizes.",
+        "technologies": [
+            "ASP.NET MVC",
+            "Ajax",
+            "jQuery",
+            "Bootstrap",
+            "Entity Framework",
+            "Payment Gateway Integration",
+            "SSRS",
+            "MS SQL Server",
+            "Stored Procedures"
+        ],
+        "responsibilities": [
+            "Designed and developed application suite for financial management, including invoicing, expense tracking, and reporting modules.",
+            "Collaborated with team to build a responsive and user-friendly interface using Angular and Bootstrap.",
+            "Implemented payment gateway integration for seamless transaction processing.",
+            "Created and optimized database logic for performance improvements.",
+            "Implemented and trained various security features to safeguard sensitive accounting data.",
+            "Conducted code reviews and mentored junior developers on best practices."
+        ],
+        "impact": "http://accountbox.biz/ | Enhanced financial management efficiency by 30% through streamlined processes and improved reporting capabilities."
+    },
+    {
+        "title": "Zelloz",
+        "year": "2015-2016",
+        "description": "Web Based E-Commerce Application, which offers clients to sell their products online as well as add new resellers to with Stock management and order management features. The application is designed to streamline e-commerce processes, enhance product visibility, and improve overall efficiency for businesses of all sizes.",
+        "technologies": [
+            "ASP.NET MVC",
+            "Ajax",
+            "jQuery",
+            "Bootstrap",
+            "Entity Framework",
+            "Payment Gateway Integration",
+            "SSRS",
+            "MS SQL Server",
+            "Stored Procedures"
+        ],
+        "responsibilities": [
+            "Designed and developed application suite for financial management, including invoicing, expense tracking, and reporting modules.",
+            "Collaborated with team to build a responsive and user-friendly interface using Angular and Bootstrap.",
+            "Implemented payment gateway integration for seamless transaction processing.",
+            "Created and optimized database logic for performance improvements.",
+            "Implemented and trained various security features to safeguard sensitive accounting data."
+        ],
+        "impact": "https://www.zelloz.com/ | Increased and streamlined to start an online business by 40% through improved product visibility and efficient order management processes."
+    },
+    {
+        "title": "Medsplan",
+        "year": "2015",
+        "description": "Using Meds Plan users can get up to date drug information, hospital details, doctors updated by respected doctors and can also get the nearest hospital details based on their location. The application is designed to provide users with accurate and timely information about medications, healthcare providers, and medical facilities, enhancing their ability to make informed decisions about their health.",
+        "technologies": [
+            "ASP.NET",
+            "Ajax",
+            "jQuery",
+            "Bootstrap",
+            "Entity Framework",
+            "Web Services",
+            "SSRS",
+            "MS SQL Server",
+            "Stored Procedures"
+        ],
+        "responsibilities": [
+            "Participated in requirement analysis and system design discussions for the modernization project phase.",
+            "Developed key modules for drug information, hospital details, and doctor updates.",
+            "Implemented geolocation features to provide users with nearby hospital details.",
+            "Implemented web services for seamless integration with external APIs."
+        ],
+        "impact": "https://www.medsplan.com/ | Improved access to healthcare information and services for south India by 40% through a user-friendly platform and accurate data management."
+    },
+    {
+        "title": "Indian Movie Rating",
+        "year": "2014-2015",
+        "description": "Indian Movie Rating is a web application that allows users to browse and rate Indian movies. The application provides detailed information about movies, including cast, crew, and reviews.",
+        "technologies": [
+            "ASP.NET",
+            "Ajax",
+            "jQuery",
+            "Bootstrap",
+            "Entity Framework",
+            "SSRS",
+            "MS SQL Server",
+            "Stored Procedures"
+        ],
+        "responsibilities": [
+            "Actively participated in requirement analysis and system design discussions",
+            "Integrated various design concepts and collaborated with team to build fully responsive and user-friendly interface",
+            "Integrated youtube API to show trailers and videos",
+            "Enabled search functionality with various filters to enhance user experience"
+        ],
+        "impact": "http://www.indianmovierating.in/ | Improved access to healthcare information and services for south India by 40% through a user-friendly platform and accurate data management."
     }
 ]

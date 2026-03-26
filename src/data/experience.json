@@ -28,6 +28,7 @@
         "technologies": [
             "C#",
             ".NET Core",
+            "ASP.NET MVC",
             "Docker",
             "Kubernetes",
             "Angular",
@@ -59,6 +60,7 @@
         "technologies": [
             "C#",
             ".NET Core",
+            "ASP.NET MVC",
             "Angular",
             "TypeScript",
             "MS SQL Server",

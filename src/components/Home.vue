@@ -206,7 +206,7 @@
         </span>
         <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Featured Projects</h2>
         <p class="text-lg text-slate-300 max-w-2xl mx-auto">
-          I've led and contributed to impactful projects across various domains.
+          I've led and contributed to impactful projects across various domains.<br/>
           <router-link to="/projects" class="text-blue-400 hover:text-blue-300 font-semibold ml-2 transition-colors duration-200">
             View full portfolio →
           </router-link>
